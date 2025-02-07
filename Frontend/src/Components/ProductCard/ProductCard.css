@@ -1,0 +1,31 @@
+.data {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #5e5e5e;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 60px 170px;
+    text-transform: capitalize;
+}
+
+.data img {
+    width: 10px;
+    height: 10px;
+    object-fit: contain;
+    display: inline-block; 
+}
+
+@media (max-width:768px){
+    .data{
+        margin:40px 50px;
+        font-size: 14px;
+    }
+
+}
+@media (max-width:480px){
+    .data{
+        margin: 30px 20px;
+        font-size: 14px;
+    }
+}
