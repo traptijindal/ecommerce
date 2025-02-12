@@ -18,8 +18,8 @@ const Footer = () => {
           <li>Shop</li>
           <li>Men</li>
           <li>Women</li>
-          <li>About Us</li>
-          <li>Contact</li>
+          <li>Electronics</li>
+          <li>Jewellery</li>
         </ul>
 
         <div className="footer-social-icon">

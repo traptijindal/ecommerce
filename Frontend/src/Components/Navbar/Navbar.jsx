@@ -24,8 +24,7 @@ const Navbar = ({category,setCategory}) => {
   }, []);
 
   const handleLogout = () => {
-    localStorage.removeItem('token');
-    localStorage.removeItem('username');
+    localStorage.clear();
     setUsername('');
     window.location.href = '/'; 
   };
